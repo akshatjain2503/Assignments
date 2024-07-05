@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a HTML file and showcase all the types of CSS inline, internal and external , do check the priority</title>
+    <!-- Third Priortiy is given to External css-->
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Second Priortiy is given to intrnal css-->
+    <style>
+        div{
+            color:brown
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <!-- First Priortiy is given to inline css-->
+    <h1 style="color: blue;"> Hello there</h1>
+    <div> Good morning</div>
+    <p>Have a nice day</p>
+</body>
+</html>

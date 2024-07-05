@@ -1,0 +1,38 @@
+*{
+    font-size:15px;
+    
+}
+
+
+
+div{
+    align-items:  center;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgba(137, 43, 226, 0.249);
+    padding: 12px;
+    border-radius: 5%;
+    /* display: flex; */
+    align-content: space-around;
+    
+}
+p{
+    color: rgb(110, 12, 202);
+    font-size:30px;
+    
+}
+input[type=submit]{
+    background-color: blueviolet;
+    width: 190px;
+    color: aliceblue;
+}
+input{
+    height:30px
+    
+}
+input::placeholder {
+    text-align: center;
+}
+input[type=Date]{
+    width: 190px;
+}

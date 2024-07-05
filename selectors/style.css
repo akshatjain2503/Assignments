@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    color: black;
+   
+}
+p{
+    color: red;
+}
+.data{
+    color:blueviolet;
+}
+#psudo{
+    color: green;
+}
+[type="text"]{
+    color: blue;
+}

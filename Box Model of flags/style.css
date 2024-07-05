@@ -1,0 +1,9 @@
+table{
+    border: 2px solid black;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.grey{
+    background-color: rgba(128, 128, 128, 0.66);
+}
